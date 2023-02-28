@@ -40,7 +40,7 @@ export const Home = () => {
     <div className="cont">
       <div className="main_Task">
         <div>
-          <h2>ADD NEW TASK</h2>
+          <h2 className="h2">ADD NEW TASK</h2>
         </div>
         <div>
           <p>Task Name</p>
@@ -91,7 +91,7 @@ export const Home = () => {
       </div>
       <div className="display_task">
         <div>
-          <h2>TASK DETAILS</h2>
+          <h2 className="h2">TASK DETAILS</h2>
         </div>
         <div className="first">
           <p>Task Name</p>
