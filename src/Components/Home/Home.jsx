@@ -6,7 +6,7 @@ export const Home = () => {
     date: "",
     detail: "",
     name: "",
-    status: "",
+    status: "pending",
   });
   const [tdata, setTdata] = useState([]);
 
@@ -23,11 +23,12 @@ export const Home = () => {
   const addData = (e) => {
     const newTask = { ...taskdata };
     setTdata([...tdata, newTask]);
+    alert("Task added .")
     setTaskdata({
       date: "",
       detail: "",
       name: "",
-      status: "",
+      status: "pending",
     });
   };
 
