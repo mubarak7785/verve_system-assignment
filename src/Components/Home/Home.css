@@ -1,5 +1,9 @@
+.cont{
+    display: flex;
+    justify-content: space-around;
+}
+
 .main_Task{
-    margin: auto;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     width: 25%;
     padding: 2% 2%;
@@ -52,4 +56,17 @@ button:hover{
     background-color: black;
     color: white;
     cursor: pointer;
+}
+
+.display_task{
+    width: 60%;
+    border: 1px solid black;
+}
+
+.first{
+    border: 1px solid blue;
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+    font-size: 20px;
 }
